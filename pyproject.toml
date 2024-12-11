@@ -1,3 +1,4 @@
 [build-system]
-requires = ["oldest-supported-numpy", "setuptools", "wheel"]
+requires = ["setuptools", "wheel", "Cython", "versioneer", "oldest-supported-numpy", "scipy"]
+build-backend = "setuptools.build_meta"
 
